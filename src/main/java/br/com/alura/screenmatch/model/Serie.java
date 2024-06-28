@@ -113,7 +113,7 @@ public class Serie {
 
     @Override
     public String toString() {
-        return "titulo: " + this.getTitulo() + '\n' +
+        return "\n" + "titulo: " + this.getTitulo() + '\n' +
                 "Total de Temporadas: " + this.getTotalTemporadas() + '\n' +
                 "Avaliacao: " + this.getAvaliacao() + '\n' +
                 "Genero: " + this.getGenero() + '\n' +
